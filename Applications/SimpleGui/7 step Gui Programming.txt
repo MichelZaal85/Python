@@ -1,0 +1,9 @@
+Program structure:
+7 steps to GUI programming
+globals
+helpers
+classes
+define event handlers
+create a frame
+register event handlers
+start frame & timers
