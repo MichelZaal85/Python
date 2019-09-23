@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <author>Michel Zaal</author>
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>561</width>
+    <height>484</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::ClickFocus</enum>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>CheckIt</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../Afbeeldingen/Icons/iconfinder_document_text_accept_103510.ico</normaloff>../../../Afbeeldingen/Icons/iconfinder_document_text_accept_103510.ico</iconset>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <widget class="QLineEdit" name="Checklist_Name">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>126</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Type_1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>60</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Type_2">
+   <property name="geometry">
+    <rect>
+     <x>225</x>
+     <y>60</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Type_3">
+   <property name="geometry">
+    <rect>
+     <x>391</x>
+     <y>60</y>
+     <width>133</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="AP">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>101</y>
+     <width>36</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>AP</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CBT1_1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>100</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_1</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_3">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>101</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_1</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_4">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>123</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_2</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="BL">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>124</y>
+     <width>34</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>BL</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_6">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>124</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_2</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_7">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>146</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_3</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>147</y>
+     <width>37</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>DD</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_9">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>147</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_3</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CBT2_4">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>169</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_4</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ID">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>34</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>ID</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CBT3_4">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>170</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_4</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_13">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>192</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_5</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="WZ">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>193</y>
+     <width>39</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>WZ</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_15">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>193</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_5</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_16">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>215</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_6</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="KD">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>216</y>
+     <width>36</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>KD</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_18">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>216</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_6</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_19">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>238</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_7</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="KZ">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>239</y>
+     <width>35</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>KZ</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_21">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>239</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_7</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_22">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>261</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_8</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ME">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>262</y>
+     <width>37</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>ME</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_24">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>262</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_8</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_25">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>285</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_9</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="MP">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>286</y>
+     <width>37</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>MP</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_27">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>286</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_9</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_28">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>308</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_10</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="PH">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>309</y>
+     <width>36</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>PH</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_30">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>309</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_10</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_31">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>331</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_11</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="PL">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>332</y>
+     <width>34</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>PL</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_33">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>332</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_11</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_34">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>354</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_12</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="RS">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>355</y>
+     <width>36</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>RS</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_36">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>355</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_12</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_37">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>377</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_13</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="WH">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>378</y>
+     <width>40</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>WH</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_39">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>378</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_13</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_40">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>400</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_14</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="WN">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>401</y>
+     <width>40</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>WN</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_42">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>401</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_14</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_43">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>423</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_15</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="WD">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>424</y>
+     <width>40</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>WD</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_45">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>424</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT3_15</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_46">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>377</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_13</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_47">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>238</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_7</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_48">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>123</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_2</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_49">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>285</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_9</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_50">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>261</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_8</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_51">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>146</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_3</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_52">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>354</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_12</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_53">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>215</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_6</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_54">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>423</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_15</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_55">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>100</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT2_1</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_56">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>400</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_14</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_57">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>192</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_5</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_58">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>308</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_10</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_59">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>169</y>
+     <width>60</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_4</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_60">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>331</y>
+     <width>66</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>CBT1_11</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Save">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>20</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Open">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>20</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>110</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>20</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <property name="currentText">
+    <string>Selecteer</string>
+   </property>
+   <property name="maxCount">
+    <number>999999</number>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>Checklist_Name</tabstop>
+  <tabstop>dateEdit</tabstop>
+  <tabstop>comboBox</tabstop>
+  <tabstop>Save</tabstop>
+  <tabstop>Open</tabstop>
+  <tabstop>Type_1</tabstop>
+  <tabstop>Type_2</tabstop>
+  <tabstop>Type_3</tabstop>
+  <tabstop>AP</tabstop>
+  <tabstop>BL</tabstop>
+  <tabstop>checkBox_8</tabstop>
+  <tabstop>ID</tabstop>
+  <tabstop>WZ</tabstop>
+  <tabstop>KD</tabstop>
+  <tabstop>KZ</tabstop>
+  <tabstop>ME</tabstop>
+  <tabstop>MP</tabstop>
+  <tabstop>PH</tabstop>
+  <tabstop>PL</tabstop>
+  <tabstop>RS</tabstop>
+  <tabstop>WH</tabstop>
+  <tabstop>WN</tabstop>
+  <tabstop>WD</tabstop>
+  <tabstop>CBT1_1</tabstop>
+  <tabstop>checkBox_55</tabstop>
+  <tabstop>checkBox_3</tabstop>
+  <tabstop>checkBox_48</tabstop>
+  <tabstop>checkBox_4</tabstop>
+  <tabstop>checkBox_6</tabstop>
+  <tabstop>checkBox_51</tabstop>
+  <tabstop>checkBox_7</tabstop>
+  <tabstop>checkBox_9</tabstop>
+  <tabstop>checkBox_59</tabstop>
+  <tabstop>CBT2_4</tabstop>
+  <tabstop>CBT3_4</tabstop>
+  <tabstop>checkBox_57</tabstop>
+  <tabstop>checkBox_13</tabstop>
+  <tabstop>checkBox_15</tabstop>
+  <tabstop>checkBox_53</tabstop>
+  <tabstop>checkBox_16</tabstop>
+  <tabstop>checkBox_18</tabstop>
+  <tabstop>checkBox_47</tabstop>
+  <tabstop>checkBox_19</tabstop>
+  <tabstop>checkBox_21</tabstop>
+  <tabstop>checkBox_50</tabstop>
+  <tabstop>checkBox_22</tabstop>
+  <tabstop>checkBox_24</tabstop>
+  <tabstop>checkBox_49</tabstop>
+  <tabstop>checkBox_25</tabstop>
+  <tabstop>checkBox_27</tabstop>
+  <tabstop>checkBox_58</tabstop>
+  <tabstop>checkBox_28</tabstop>
+  <tabstop>checkBox_30</tabstop>
+  <tabstop>checkBox_60</tabstop>
+  <tabstop>checkBox_31</tabstop>
+  <tabstop>checkBox_33</tabstop>
+  <tabstop>checkBox_52</tabstop>
+  <tabstop>checkBox_34</tabstop>
+  <tabstop>checkBox_36</tabstop>
+  <tabstop>checkBox_46</tabstop>
+  <tabstop>checkBox_37</tabstop>
+  <tabstop>checkBox_39</tabstop>
+  <tabstop>checkBox_56</tabstop>
+  <tabstop>checkBox_40</tabstop>
+  <tabstop>checkBox_42</tabstop>
+  <tabstop>checkBox_54</tabstop>
+  <tabstop>checkBox_43</tabstop>
+  <tabstop>checkBox_45</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>10</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>10</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>

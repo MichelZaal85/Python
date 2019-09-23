@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:/Users/ZaaJM/Dropbox/Python/Area52/TkInterGui/CheckIt.py", line 22, in <module>
+    import CheckIt_support
+  File "C:\Users\ZaaJM\Dropbox\Python\Area52\TkInterGui\CheckIt_support.py", line 37
+    CBT1_1 = tk.StringVar()    global CBT2_1
+                                    ^
+SyntaxError: invalid syntax
